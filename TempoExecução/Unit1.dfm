@@ -1,0 +1,49 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 453
+  ClientWidth = 743
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object PnlPrincipal: TPanel
+    Left = 0
+    Top = 0
+    Width = 743
+    Height = 453
+    Align = alClient
+    BevelOuter = bvNone
+    Color = clCream
+    ParentBackground = False
+    TabOrder = 0
+    object Button1: TButton
+      Left = 488
+      Top = 352
+      Width = 75
+      Height = 25
+      Caption = 'Button1'
+      TabOrder = 0
+      OnClick = Button1Click
+    end
+    object sbxTeste: TScrollBox
+      Left = 0
+      Top = 0
+      Width = 743
+      Height = 60
+      Align = alTop
+      BevelInner = bvNone
+      BevelOuter = bvNone
+      BorderStyle = bsNone
+      Color = clGradientActiveCaption
+      ParentColor = False
+      TabOrder = 1
+    end
+  end
+end
